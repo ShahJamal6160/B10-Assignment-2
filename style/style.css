@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* ball */
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+}
+/* header style */
+
+
+.header{
+    width: 100%;
+    background: linear-gradient(180.00deg, rgb(17,17,17), rgb(119, 119, 119, 0) 100%);
+}
+
+/* shared styles */
+
+.displya-flex{
+    display: flex;
+}
+
+.btn-primary{
+    background-color: #E6533C;
+}
+
+/* nav sytle */
+.navbar{
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.nav-title{
+    color: rgb(230, 83, 60);
+}
+
+.nav-links{
+   
+}
+
+.nav-item{
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 30px;
+    color: white;
+    
+}
+
+.btn-primary{
+    width: 92px;
+    height: 37px;
+    color: white;
+    border-radius: 46px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* nav style end */
+
+/* banner styles */
+.banner{
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.banner-btn-1{
+    width: 224px;
+    border-radius: 42px;
+}
+    
+
+
+    
