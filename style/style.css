@@ -19,7 +19,7 @@
 
 
 .header{
-    width: 1440px;
+    width: 1300px;
     background: linear-gradient(180.00deg, rgb(17,17,17), rgb(119, 119, 119, 0) 100%);
 }
 
@@ -194,7 +194,8 @@
 /* responsive mobile device */
 @media screen and (max-width:576px) {
     .header{
-        width: 100%;
+        width: 393px;
+        height: 1024px;
     }
     .navbar{
         width: 340px;
@@ -226,8 +227,8 @@
 
     .banner{
         flex-direction: column;
-        width: 393px;
-        height: 1024px;
+        /* width: 393px;
+        height: 1024px; */
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -250,10 +251,6 @@
     .banner-greetings{
         width: 353px;
         margin-left: 10px;
-    }
-    .experiance-btn-2{
-        
-        
     }
 
     .ball{
