@@ -10,15 +10,7 @@
     "slnt" 0;
 }
 
-/* ball */
-.ball{
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    border-radius: 50%;
-    position: relative;
-    left: 600px;
-}
+
 /* header style */
 
 
@@ -40,6 +32,8 @@
 /* nav sytle */
 .navbar{
     justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
     margin-left: 190px;
     margin-right: 190px;
 }
@@ -79,7 +73,8 @@
 }
 
 .banner-content{
-    
+    width: 599px;
+    margin-top: 97px;
 }
 
 
@@ -106,8 +101,73 @@
     stroke: 1px inside rgb(255, 255, 255);
 }
 
+.banner-greetings{
+    width: 349px;
+    margin-top: 34px;
+    margin-left: 88px;
+}
 
-    
+.experiance-btn{
+    position: relative;
+    margin-top: -100px;
+}
+
+
+.experiance-btn{
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px soli rgba(255, 255, 255, 0.1) ;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background-color:rgba(48, 48, 48, 0.54) ;
+    margin-right: -100px;
+}
+
+
+/* ball */
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+    margin-top: -70px;
+    margin-left: 210px;
+}
+.btn-font-1{
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+}
+
+#experiance-btn-2{
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+   margin-top: -400px;
+   margin-left: 160px;
+   border-radius: 12px;
+   backdrop-filter: blur(20px);
+   background-color: rgba(255, 255, 255, 0.1);
+   font-size: .5rem;
+   
+}
+
+.btn-font-2{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+   font-size: 2.5rem;
+   text-align: left;
+   
+}
+
+
+
 
 
     
