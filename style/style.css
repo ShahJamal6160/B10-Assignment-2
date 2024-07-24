@@ -11,107 +11,101 @@
 }
 
 
-/* font-family: 'Miama', cursive; */
-
-
-
-/* header style */
-
-
 .header{
-    width: 1300px;
-    background: linear-gradient(180.00deg, rgb(17,17,17), rgb(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17,17,17), rgb(119, 119, 119, 0) 100%); */
+    background-color: rgb(70, 68, 68);
 }
 
 /* shared styles */
 
-.displya-flex{
+.display-flex{
     display: flex;
 }
+
+/* .secondary-bg{
+    color: rgb(230, 83, 60);
+} */
 
 .btn-primary{
     background-color: #E6533C;
 }
 
-/* nav sytle */
+
+/* navbar styles */
+
 .navbar{
     justify-content: space-between;
     align-items: center;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .nav-title{
-    color: rgb(230, 83, 60);
-}
-
-.banner-title{
-    font-weight: 900;
-    font-size: 4rem;
-    color: rgb(255, 255, 255);;
-    background-color: ;
-}
-
-.banner-title-1{
-    font-family: 'Miama', cursive; */
-    font-weight: 400;
-    font-size: 4rem;
-
+    color: #E6533C;
 }
 
 .nav-link{
-   cursor: pointer;
-   color: white;
-   text-decoration: none;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-item{
-    justify-content: space-between;
-    flex-direction: row;
-    list-style: none;
-    margin-right: 30px;
-    color: white;
-
-    
+   justify-content: space-between;
+   flex-direction: row;
+   list-style: none;
+   margin-right: 30px;
+   color: white;
+   /* font-size: 1.2rem; */
 }
 
-.nav-btn {
-    width: 92px;
-    height: 37px;
-    color: white;
-    border-radius: 46px;
-    font-weight: 600;
-    font-size: 1rem;
+.nav-ext{
+    /* এটার wdith দিতে হবে */
+    border-radius: 8px;
 }
-
 /* nav style end */
 
 /* banner styles */
+
 .banner{
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+/* এই মাপ টা আরো যাচাই করতে হবে */
 .banner-content{
-    width: 599px;
-    margin-top: 97px;
+    
 }
 
+.banner-title{
+    font-weight: 400;
+    font-size: 4rem;
+}
 
-.banner-btn-1{
-    width: 224px;
-    height: 54px;
+.banner-title-1{
+    font-family: 'Miama', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.banner-btn-1 {
+    width: 200px;
+    height: 50px;
     border-radius: 42px;
     font-size: 1rem;
     padding: 16px 40px 16px 40px;
-    gap: 14px;
+    border: none;
+    transition: transform 1s;
+
+}
+.banner-btn-1:hover{
+   transform:  scale(1.5);
 }
 
-
 .banner-btn-2{
-    width: 224px;
-    height: 54px;
-    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    /* box-sizing: border-box; */
     border: 1px solid rgb(20, 19, 19);
     border-radius: 42px;
     font-weight: 600;
@@ -119,67 +113,197 @@
     color: white;
     padding: 16px 40px 16px 40px;
     stroke: 1px inside rgb(255, 255, 255);
-    background-color: black;
+    background-color: rgb(39, 9, 9);
+    border: none;
+}
+
+/* ball styles */
+.ball{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 430px;
+    margin-right: -580px;
+
 }
 
 .banner-greetings{
-    width: 349px;
-    margin-top: 34px;
-    margin-left: 88px;
+    margin-left: 660px;
 }
+
 .banner-description{
-    text-wrap: wrap;
+    /* width: 400px; */
 }
-
-
+/* experiance-btn styles */
 
 .experiance-btn{
+    background-color:rgba(14, 4, 4, 0.54) ;
+    position: relative;
+    width: 190px;
+    height: 90px;   
+    /* box-sizing: border-box; */
+    border: 1px soli rgba(255, 255, 255, 0.1) ;
+    border-radius: 12px;
+    margin-top: 400px;
+    /* margin-left: 100px; */
+    margin-right: -280px;
+    color: white;
+    border: none;
+    /* font width and font size dithe hobe pore */
+}
+.btn-font-1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(250, 250, 249);
+   
+    
+}
+
+/* 2 no btn */
+.experiance-btn-1{
+    background-color: rgba(20, 9, 9, 0.54);
     position: relative;
     width: 206px;
     height: 96px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: 1px soli rgba(255, 255, 255, 0.1) ;
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    background-color:rgba(48, 48, 48, 0.54) ;
-    margin-right: -100px;
-    margin-top: -100px;
+    color: white;
+    margin-top: 150px;
+    margin-left: -130px;
+    border: none;
+    
 }
-
-
-/* ball */
-.ball{
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    border-radius: 50%;
-    position: absolute;
-    left: 600px;
-    margin-top: -70px;
-    margin-left: 300px;
-}
-.btn-font-1{
-    color: rgb(250, 250, 249);
-    font-size: 24px;
-    font-weight: 900;
-    text-align: left;
-}
-
 
 .btn-font-2{
     font-weight: 900;
     color: rgb(255, 255, 255);
    font-size: 2.5rem;
    text-align: left;
+}
+
+
+/* habits styles */
+
+.habit-bg{
+    /* background-color: black; */
+    padding-top: 50px;
+    padding-bottom: 90px;
    
 }
 
-/* responsive styles */
+
+
+.habit-container{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    
+}
+
+.movment{
+    transition: transform 1s;
+}
+.movment:hover{
+    transform: scale(1.5);
+    /* margin-left: 25px; */
+
+}
+
+
+
+.habit-img{
+    border-radius: 50%;
+}
+
+
+.img-title{
+    color: white;
+    padding-left: 60px;
+    padding-bottom: 0px;
+}
+.img-description{
+    color: white;
+    font-size: 1rem;
+}
+
+/* Run section style */
+
+.run-bg{
+    
+    
+}
+
+.run-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 150px;
+    padding-bottom: 50px;
+    box-shadow: 0px 6px 15px 0px rgb(206, 186, 186);
+    border-radius: 24px;
+    background-color: rgb(32, 31, 31);
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+
+.run-title{
+    margin-top: 60px;
+    margin-right: 0px;
+}
+
+.run-sub-title{
+    font-weight: 800;
+    font-size: 3REM;
+    color: white;
+}
+.run-description{
+    color: white;
+}
+
+.run-img{
+    width: 500px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.run-btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 36px;
+    color: white;
+    border: none;
+    transition: transform 1s;
+}
+
+.run-btn:hover{
+    transform: scale(1.5);
+}
+/* responsive style menubar */
+
 
 .menu-bar{
     display: none;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .menu-bar .bar{
@@ -189,28 +313,224 @@
     margin: 4px 0;
     transition: 0.4s;
 }
+
+/* Calculate styles */
+
+.calculate-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(49, 48, 48);
+}
+
+.calcilate-title{
+    margin-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
     
+}
+.calculate-sub-title{
+    font-weight: 700;
+    font-size: 3rem;
+  
+   
+}
+
+.calculate-description{
+   
+    font-size: 0.75rem;
+    
+}
+
+.chart-title{
+    color: white;
+}
+
+.bmi-title{
+    color: white;
+}
+
+
+
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid rgb(155, 151, 151);
+    padding: 15px 20px;
+    color: rgb(136, 133, 133);
+}
+.calculate-chart{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.calculate-bmi{
+    padding-top: 50px;
+    
+}
+
+.bmi-container{
+    width: 60% 60%;
+}
+
+.bmi-1{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: none;
+}
+.bmi-5{
+    width: 517px;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: none;
+}
+.btn-bmi{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+
+/* trainer team style */
+
+.team-bg{
+    color: white;
+    padding-bottom: 60px;
+}
+
+.team-title{
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+
+
+
+.team-description{
+    text-align: center;
+    font-size: 0.75rem;
+    color: rgb(126, 106, 106);
+    padding-bottom: 70px;
+    
+}
+
+.trainer-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 140px;
+    /* padding-top: 50px; */
+    box-shadow: 0px 6px 15px 0px rgb(206, 186, 186);
+    border-radius: 24px;
+    padding: 50px 50px 50px 60px;
+    background-color: rgb(32, 31, 31);
+    
+}
+
+.trainer-conrainer{
+    
+}
+
+.trainer-img{
+    width: 300px;
+    height: 268px;
+    box-shadow: 0px 6px 10px 0px rgb(206, 186, 186);
+    border-radius: 16px;
+    margin-right: 10px;
+}
+
+.trainer-title{
+    position: absolute;
+    margin-top: -60PX;
+    margin-left: 20px;
+    font-size: 1rem;
+    transition: transform 1s;
+}
+
+.trainer-title:hover{
+    transform: scale(1.5);
+    margin-left: 40px;
+    
+}
+
+.trainer-description{
+    position: absolute;
+    margin-top: -40PX;
+    margin-left: 20px;
+    font-size: 0.75rem;
+    color: rgb(126, 106, 106);
+}
+
+
+/* footer styles */
+.fitness-layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    /* box-shadow: 0px 0px 20px 0px; */
+    border-bottom: 2px solid rgb(80, 78, 78);
+    margin-left: 100px;
+    margin-right: 120px;
+    padding: 60px 0px 50px 70px;
+}
+
+.fitness-title{
+    font-size: 4rem;
+    color: #E6533C;
+}
+
+/* .about-layout{
+    color: white;
+} */
+
+.about-container{
+    color: white;
+}
+.about-list li{
+    color: rgb(117, 113, 113);
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.copy-right-bar{
+    text-align: center;
+    padding: 15px;
+    color: rgb(155, 149, 149);
+}
 
 /* responsive mobile device */
+
 @media screen and (max-width:576px) {
-    .header{
-        width: 393px;
-        height: 1024px;
-    }
     .navbar{
-        width: 340px;
         margin-left: 20px;
         margin-right: 20px;
     }
     .nav-links{
         display: none;
         flex-direction: column;
-        width: 100%;
-    }    
+        width: 100p%;
+    }
+
 
     .nav-links.active{
         display: flex;
-    } 
+    }
+
     .nav-item{
         margin: 10px 0;
     }
@@ -222,38 +542,181 @@
     }
 
     .banner{
-        margin: 0px;
-    }
-
-    .banner{
         flex-direction: column;
-        /* width: 393px;
-        height: 1024px; */
+        align-items: center;
         margin-left: 20px;
         margin-right: 20px;
     }
-    .banner-title{
-        width: 352px;
-    }
-    .banner-description{
-        width: 300px;
-        text-wrap: wrap;
-    }
+
     .banner-btn-1{
-        width: 169px;
-        font-size: 0.75rem;
+        width: 160px;
+        height: 60px;
+        text-align: center;
+        transition: transform 1s;
     }
+    .banner-btn-1:hover{
+        transform:  scale(.5);
+     }
+
     .banner-btn-2{
-        width: 140px;
-        height: 54px;
-        font-size: 0.75rem;
-    }
-    .banner-greetings{
-        width: 353px;
-        margin-left: 10px;
+        position: absolute;
+        width: 90px;
+        height: 20px;
+        text-align: center;
     }
 
-    .ball{
-        margin-left: -570px;
+    /* btn- 350+ এর কাজ */
+    .experiance-btn{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: -120px;
+    }
+
+
+   .ball{
+        position: absolute;
+        margin-top: -220px;
+        margin-right: -70px;
+        
+    }
+
+    .experiance-btn-1{
+        position: absolute;
+        margin-top: -420px;
+        margin-left: 20px;
+        width: 150px;
+    }
+
+    .banner-greetings{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .img-container{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .img-description{
+        text-align: center;
+    }
+
+
+    .calculated-sec{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .calcilate-title{
+        margin-left: 20px;
+    }
+
+    .calculate-container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        
+    }
+    .bmi-5{
+        width: 255px;
+    }
+    .habit-img{
+        justify-content: center;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .run-container{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .run-title{
+       text-align: left;
+       margin-left: 20px;
+       gap: 20px;
+    }
+
+    .run-btn{
+        width: 250px;
+        transition: transform 1s;
+    }
+
+    .run-btn:hover{
+        transform: scale(.75);
+    }
+    .run-img{
+        margin-left: 90px;
+        margin-right: 50px;
+        width: 300px;
+        
+    }
+
+    .trainer-layout{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+        justify-content: space-between;
+        margin-right: 20px;
+        align-items: center;
+    }
+   
+    .trainer-img{
+        width: 300px;
+        margin-left: -50px;
+    }
+
+    .fitness-layout{
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 20px;
+    }
+    .fitness-container{
+       
+    }
+    
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+            
+            .banner-btn-1{
+                margin-bottom: 20px;
+            }
+            .trainer-layout{
+                grid-template-columns: repeat(2,1fr);
+                margin-left: 20px;
+                margin-right: 20px;
+
+            }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1350px) {
+    .banner-btn-1{
+        margin-bottom: 20px;
+    }
+    .run-container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .trainer-layout{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+
+    .trainer-img{
+        margin: -8px;
+        gap: 20px;
+    }
+
+    .fitness-layout{
+        margin-left: 10px;
+        margin-right: 30px;
     }
 }
