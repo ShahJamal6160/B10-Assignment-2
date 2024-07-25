@@ -217,30 +217,31 @@
     
 }
 
-.movment{
+.habit-img{
+    justify-items: center;
+    border-radius: 50%;
+    align-items:center;
+    margin-left: 60px;
     transition: transform 1s;
 }
-.movment:hover{
+.habit-img:hover{
     transform: scale(1.5);
-    /* margin-left: 25px; */
 
-}
-
-
-
-.habit-img{
-    border-radius: 50%;
 }
 
 
 .img-title{
     color: white;
-    padding-left: 60px;
+    padding-left: 50px;
     padding-bottom: 0px;
+    margin-left: 55px;
+    
 }
 .img-description{
     color: white;
-    font-size: 1rem;
+    font-size: .75rem;
+    text-align: center;
+    margin-left: 40px;
 }
 
 /* Run section style */
@@ -365,6 +366,7 @@ td, th{
 .calculate-chart{
     padding-top: 50px;
     padding-bottom: 100px;
+   
 }
 .calculate-bmi{
     padding-top: 50px;
@@ -420,7 +422,7 @@ td, th{
 
 .team-description{
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     color: rgb(126, 106, 106);
     padding-bottom: 70px;
     
@@ -616,8 +618,9 @@ td, th{
         align-items: center;
         margin-left: 20px;
         margin-right: 20px;
-        
-        
+    }
+    .calculate-bmi{
+       text-align: center;
     }
     .bmi-5{
         width: 255px;
@@ -626,6 +629,17 @@ td, th{
         justify-content: center;
         margin-left: 20px;
         align-items: center;
+    }
+
+    .img-title{
+        text-align: left;
+        margin-left: 20px;
+        
+    }
+    .img-description{
+        text-align: center;
+        text-wrap: wrap;
+        margin-left: 20px;
     }
     .run-container{
         flex-direction: column;
