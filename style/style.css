@@ -42,6 +42,7 @@
 
 .nav-title{
     color: #E6533C;
+    font-size: 2rem;
 }
 
 .nav-link{
@@ -78,19 +79,21 @@
 }
 
 .banner-title{
-    font-weight: 400;
+    font-weight: 800;
     font-size: 4rem;
+    color: white;
 }
 
 .banner-title-1{
     font-family: 'Miama', cursive;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 4rem;
 }
 
 .banner-btn-1 {
     width: 200px;
     height: 50px;
+    color: white;
     border-radius: 42px;
     font-size: 1rem;
     padding: 16px 40px 16px 40px;
@@ -114,11 +117,65 @@
     padding: 16px 40px 16px 40px;
     stroke: 1px inside rgb(255, 255, 255);
     background-color: rgb(39, 9, 9);
-    border: none;
+    border: 1px solid white;
 }
 
-/* ball styles */
+/* edited */
+.experiance-btn{
+    background-color:rgba(14, 4, 4, 0.54) ;
+    position: relative;
+    width: 190px;
+    height: 90px;   
+    box-sizing: border-box;
+    border: 1px soli rgba(255, 255, 255, 0.1) ;
+    border-radius: 12px;
+    margin-top: 400px;
+     margin-left: 100px;
+    margin-right: -170px;
+    color: white;
+    border: none;
+    
+} 
+
+
+.banner-img{
+    /* position: relative; */
+    margin-left: 830PX;
+}
+
+
 .ball{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 430px;
+    margin-right: -780px;
+
+}
+
+
+.experiance-btn-1{
+    background-color: rgba(20, 9, 9, 0.54);
+    position: relative;
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box; 
+    border: 1px soli rgba(255, 255, 255, 0.1) ;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    color: white;
+    margin-top: 140px;
+    margin-left: -100px;
+    border: none;
+    
+} 
+
+/* edited */
+
+/* ball styles */
+/* .ball{
     position: relative;
     width: 30px;
     height: 30px;
@@ -127,32 +184,36 @@
     margin-top: 430px;
     margin-right: -580px;
 
-}
+} */
 
-.banner-greetings{
+/* .banner-greetings{
     margin-left: 660px;
-}
+} */
+
+
+
 
 .banner-description{
     /* width: 400px; */
 }
 /* experiance-btn styles */
 
-.experiance-btn{
+/* .experiance-btn{
     background-color:rgba(14, 4, 4, 0.54) ;
     position: relative;
     width: 190px;
     height: 90px;   
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     border: 1px soli rgba(255, 255, 255, 0.1) ;
     border-radius: 12px;
     margin-top: 400px;
-    /* margin-left: 100px; */
+    margin-left: 100px;
     margin-right: -280px;
     color: white;
     border: none;
-    /* font width and font size dithe hobe pore */
-}
+    
+} */
+
 .btn-font-1{
     font-size: 1.5rem;
     font-weight: 900;
@@ -163,12 +224,12 @@
 }
 
 /* 2 no btn */
-.experiance-btn-1{
+/* .experiance-btn-1{
     background-color: rgba(20, 9, 9, 0.54);
     position: relative;
     width: 206px;
     height: 96px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     border: 1px soli rgba(255, 255, 255, 0.1) ;
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -177,7 +238,7 @@
     margin-left: -130px;
     border: none;
     
-}
+} */
 
 .btn-font-2{
     font-weight: 900;
@@ -221,7 +282,7 @@
     justify-items: center;
     border-radius: 50%;
     align-items:center;
-    margin-left: 60px;
+    margin-left: 40px;
     transition: transform 1s;
 }
 .habit-img:hover{
@@ -232,7 +293,7 @@
 
 .img-title{
     color: white;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-bottom: 0px;
     margin-left: 55px;
     
@@ -240,7 +301,7 @@
 .img-description{
     color: white;
     font-size: .75rem;
-    text-align: center;
+    /* text-align: center; */
     margin-left: 40px;
 }
 
@@ -550,6 +611,12 @@ td, th{
         margin-right: 20px;
     }
 
+    .banner-img{
+        /* position: relative; */
+        margin-left: 20PX;
+    }
+
+
     .banner-btn-1{
         width: 160px;
         height: 60px;
@@ -560,10 +627,15 @@ td, th{
         transform:  scale(.5);
      }
 
+     .banner-description{
+        font-size: 1.5rem;
+        font-weight: 600px;
+    }
+
     .banner-btn-2{
         position: absolute;
         width: 90px;
-        height: 20px;
+        height: 32px;
         text-align: center;
     }
 
@@ -588,6 +660,11 @@ td, th{
         margin-left: 20px;
         width: 150px;
     }
+    .banner-title{
+        font-weight: 500px;
+        font-size: 3rem;
+    }
+
 
     .banner-greetings{
     margin-left: 20px;
