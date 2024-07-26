@@ -394,10 +394,11 @@
 .calculate-sub-title{
     font-weight: 700;
     font-size: 3rem;
-  
-   
 }
 
+.bmi-description{
+    color: rgb(196, 189, 189);
+}
 .calculate-description{
    
     font-size: 0.75rem;
@@ -542,8 +543,9 @@ td, th{
 /* footer styles */
 .fitness-layout{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr) ;
     justify-content: center;
+    gap: 50px;
     /* box-shadow: 0px 0px 20px 0px; */
     border-bottom: 2px solid rgb(80, 78, 78);
     margin-left: 100px;
@@ -555,7 +557,9 @@ td, th{
     font-size: 4rem;
     color: #E6533C;
 }
-
+.fitness-description{
+    color: rgb(161, 156, 156);
+}
 /* .about-layout{
     color: white;
 } */
