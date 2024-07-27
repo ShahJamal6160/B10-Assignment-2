@@ -38,8 +38,6 @@
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
-    position: sticky;
-    
 }
 
 .nav-title{
@@ -733,12 +731,17 @@ td, th{
         margin-left: 20px;
         justify-content: space-between;
         margin-right: 20px;
+        margin-left: 20px;
+       
         align-items: center;
+        
     }
    
     .trainer-img{
-        width: 300px;
+        /* width: 300px; */
         margin-left: -50px;
+       
+        
     }
 
     .fitness-layout{
