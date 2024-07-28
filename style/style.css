@@ -117,7 +117,7 @@
 }
 
 .banner-btn-1:hover{
-    transform: scale(1.5);
+    transform: calc(.5);
 }
 
 
@@ -332,7 +332,7 @@
 
 
 .menu-bar{
-    display: none;
+   
     flex-direction: column;
 }
 
@@ -341,7 +341,7 @@
     width: 25px;
     background-color: white;
     margin: 4px 0;
-    transition: 0.4s;
+    transition: 0.6s;
 }
 
 /* Calculate styles */
@@ -562,25 +562,18 @@ td, th{
         margin-left: 20px;
         margin-right: 20px;
     }
+    
     .nav-links{
         display: none;
         flex-direction: column;
-        width: 100p%;
+        
     }
 
-
-    .nav-links.active{
-        display: flex;
-    }
-
-    .nav-item{
-        margin: 10px 0;
-    }
 
     .menu-bar{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        /* align-items: center; */
     }
 
     .banner{
