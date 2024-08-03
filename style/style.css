@@ -43,6 +43,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+
 /* navbar styles */
 
 .navbar{
@@ -665,6 +666,8 @@ td, th{
         margin-left: 20px;
         width: 150px;
     }
+
+
     .banner-title{
         font-weight: 500px;
         font-size: 3rem;
