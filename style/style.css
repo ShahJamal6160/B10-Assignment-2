@@ -59,27 +59,31 @@
     font-weight: 800;
 }
 
-.link-container{
-    width: 448px;
-    height: 61px;
+
+
+.nav-links{
+    width: 350px;
+    height: 31px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 46px;
-   
 }
 
 .nav-link{
     cursor: pointer;
     color: white;
     text-decoration: none;
-   
+    
 }
 
 .nav-item-1{
-    width: 80px;
+    width: 90px;
     height: 20px;
     background-color: #E6533C;
     list-style: none;
     margin-right: 30px;
+    margin-left: -35px;
+    
+    margin-bottom: 5px;
     color: white;
     border-radius: 24px;
     text-align: center;
@@ -91,7 +95,6 @@
 
 .nav-item{
    justify-content: space-between;
-   flex-direction: row;
    list-style: none;
    margin-right: 30px;
    color: white;
