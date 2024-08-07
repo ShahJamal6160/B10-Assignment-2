@@ -596,16 +596,12 @@ td, th{
         margin-right: 20px;
     }
     
-    .link-container{
-        display: none;
-    }
 
     .nav-links{
         display: none;
         flex-direction: column;
         
     }
-
 
     .menu-bar{
         display: flex;
